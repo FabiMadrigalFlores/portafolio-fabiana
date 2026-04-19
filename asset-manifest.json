@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FabiMadrigalFlores/portafolio-fabiana/static/css/main.6b501202.css",
-    "main.js": "/FabiMadrigalFlores/portafolio-fabiana/static/js/main.c652028f.js",
-    "index.html": "/FabiMadrigalFlores/portafolio-fabiana/index.html",
-    "main.6b501202.css.map": "/FabiMadrigalFlores/portafolio-fabiana/static/css/main.6b501202.css.map",
-    "main.c652028f.js.map": "/FabiMadrigalFlores/portafolio-fabiana/static/js/main.c652028f.js.map"
+    "main.css": "/portafolio-fabiana/static/css/main.6b501202.css",
+    "main.js": "/portafolio-fabiana/static/js/main.f5cde937.js",
+    "index.html": "/portafolio-fabiana/index.html",
+    "main.6b501202.css.map": "/portafolio-fabiana/static/css/main.6b501202.css.map",
+    "main.f5cde937.js.map": "/portafolio-fabiana/static/js/main.f5cde937.js.map"
   },
   "entrypoints": [
     "static/css/main.6b501202.css",
-    "static/js/main.c652028f.js"
+    "static/js/main.f5cde937.js"
   ]
 }
