@@ -1,0 +1,33 @@
+/* ── RESET & BASE ── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark:       #1e293b;
+  --mid:        #b5c5e5;
+  --accent:     #6d8bcb;
+  --accent-deep:#1e5fc7;
+  --white:      #f4f7ff;
+  --text-light: #cdd9f0;
+  --card-bg:    rgba(109, 139, 203, 0.09);
+  --card-border:rgba(181, 197, 229, 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

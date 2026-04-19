@@ -1,0 +1,115 @@
+.identidad {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.identidad-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.identidad-text p {
+  color: var(--text-light);
+  line-height: 1.8;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.id-section {
+  margin-top: 1.6rem;
+}
+
+.id-sublabel {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.font-pair {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.identidad-img {
+  width:100%;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid var(--card-border);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-tag {
+  background: rgba(109, 139, 203, 0.12);
+  border: 1px solid rgba(109, 139, 203, 0.3);
+  border-radius: 8px;
+  padding: 0.4rem 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.78rem;
+  color: var(--mid);
+}
+
+.color-palette {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.swatch-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.swatch {
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.2s;
+}
+
+.swatch:hover {
+  transform: scale(1.1);
+}
+
+.swatch-label {
+  font-size: 0.68rem;
+  color: var(--text-light);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* Logo card */
+.logo-card {
+  background: linear-gradient(135deg, rgba(109,139,203,0.15), rgba(30,41,59,0.5));
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.logo-svg {
+  display: block;
+  margin: 0 auto 1.2rem;
+}
+
+.logo-slogan {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mid);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .identidad-grid {
+    grid-template-columns: 1fr;
+  }
+}
